@@ -15,3 +15,12 @@
 Os cientistas agora perguntam:dada uma cadeia de DNA,qual o tamanho e qual cadeia pode ser obtida depois de todas as mutações possíveis?
 
 Escreva um programa que lÊ um arquivo texto com a sequênccia de DNA e imprime na tela o tempo de processamento e a cadeia resultante após a degradação do DNA.
+
+## Linguagem Utilizada:
+<div style="display: inline_block"><br>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
+
+# Autora:
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/142232479?v=4" width=115><br><sub>Luiza Hackenhaar Naziazeno</sub>](https://github.com/luizahackenhaarnaziazeno)|
+| :---: |
