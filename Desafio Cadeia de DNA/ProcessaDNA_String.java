@@ -17,13 +17,12 @@ class ProcessaDNA_String implements IProcessaDNA {
     }
 
     public boolean carregaDados(String fname) {
-        // Assume que o arquivo esta no diretório de execução
         String currDir = Paths.get("").toAbsolutePath().toString();
         String nomeCaminhoCompleto = currDir + "/" + fname;
         System.out.println(nomeCaminhoCompleto);
         Path path = Paths.get(nomeCaminhoCompleto);
 
-        // Usa a classe scanner para fazer a leitura do arquivo
+        
         try (Scanner sc = new Scanner(Files.newBufferedReader(path, StandardCharsets.UTF_8))) {
             sDna = sc.nextLine();
         } catch (IOException x) {
