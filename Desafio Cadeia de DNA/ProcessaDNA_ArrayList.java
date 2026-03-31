@@ -18,13 +18,12 @@ public class ProcessaDNA_ArrayList implements IProcessaDNA {
     }
 
     public boolean carregaDados(String fname) {
-        // Assume que o arquivo está no diretório de execução
         String currDir = Paths.get("").toAbsolutePath().toString();
         String nomeCaminhoCompleto = currDir + "/" + fname;
         System.out.println(nomeCaminhoCompleto);
         Path path = Paths.get(nomeCaminhoCompleto);
 
-        // Usa a classe Scanner para fazer a leitura do arquivo
+    
         try (Scanner sc = new Scanner(Files.newBufferedReader(path, StandardCharsets.UTF_8))) {
             String dnaString = sc.nextLine();
             for (char c : dnaString.toCharArray()) {
@@ -48,7 +47,7 @@ public class ProcessaDNA_ArrayList implements IProcessaDNA {
             if (dnaList.get(pos) != dnaList.get(pos + 1)) {
                 char nova = IProcessaDNA.defineNova(dnaList.get(pos), dnaList.get(pos + 1));
                 dnaList.remove(pos);
-                dnaList.remove(pos); // Remove a próxima também, já que a atual mudou
+                dnaList.remove(pos); 
                 dnaList.add(pos, nova);
                 if (pos > 0) {
                     pos--;
@@ -58,7 +57,7 @@ public class ProcessaDNA_ArrayList implements IProcessaDNA {
             }
         }
 
-        // Convertendo ArrayList de caracteres de volta para uma String
+      
         StringBuilder sb = new StringBuilder();
         for (char c : dnaList) {
             sb.append(c);
