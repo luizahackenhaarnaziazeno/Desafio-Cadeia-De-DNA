@@ -1,12 +1,12 @@
 <div align="center">
 
-  ## Desafio-Cadeia-De-DNA
+## Desafio-Cadeia-De-DNA
   Este exercício busca mostrar a importância da API de coleções e do domínio correto do seu uso visando obter algoritmos eficientes.
 
-  ## Enunciado:
+## Enunciado:
   Depois de analizar cuidadosamente o disco voador que caiu no meio do parque da Redenção,os cientistas chegaram a algumas conclusões sobre os seres que o ocupavam(e que fugiram em uma cápsula de resgate).
 
-  Os cientistas descobriram que o DNA dos alienígenas é feito com 3 bases em vez de 4 bases do DNA terrestre.Ironicamente eles batizaram as 3 bases de D,N E A.Eles também descobriram que o DNA alienígena sofre mutações que o deterioram com o tempo: duas bases diferentes que estão uma ao lado da outra podem se fundir produzindo a terceira base e criando uma cadeia de DNA um pouco menor.Isto acontece de uma forma muito organizada:
+ Os cientistas descobriram que o DNA dos alienígenas é feito com 3 bases em vez de 4 bases do DNA terrestre.Ironicamente eles batizaram as 3 bases de D,N E A.Eles também descobriram que o DNA alienígena sofre mutações que o deterioram com o tempo: duas bases diferentes que estão uma ao lado da outra podem se fundir produzindo a terceira base e criando uma cadeia de DNA um pouco menor.Isto acontece de uma forma muito organizada:
 -Em uma cadeia de DNA a fusão de bases acontece sempre na dupla de bases diferentes mais à esquerda;
 -A nova base criada com a fusão vai ser agregada ao final da cadeia DNA.
 
@@ -16,9 +16,6 @@ Os cientistas agora perguntam:dada uma cadeia de DNA,qual o tamanho e qual cadei
 
 Escreva um programa que lÊ um arquivo texto com a sequênccia de DNA e imprime na tela o tempo de processamento e a cadeia resultante após a degradação do DNA.
 
-## Linguagem Utilizada:
-<div style="display: inline_block"><br>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
 
 # Autora:
 
