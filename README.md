@@ -14,7 +14,7 @@
 
 Os cientistas agora perguntam:dada uma cadeia de DNA,qual o tamanho e qual cadeia pode ser obtida depois de todas as mutações possíveis?
 
-Escreva um programa que lÊ um arquivo texto com a sequênccia de DNA e imprime na tela o tempo de processamento e a cadeia resultante após a degradação do DNA.
+Escreva um programa que lê um arquivo texto com a sequênccia de DNA e imprime na tela o tempo de processamento e a cadeia resultante após a degradação do DNA.
 
 
 # Autora:
